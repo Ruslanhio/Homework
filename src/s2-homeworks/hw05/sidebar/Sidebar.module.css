@@ -1,0 +1,35 @@
+.sidebar {
+
+
+
+}
+
+.sidebar.open {
+
+}
+
+.background {
+color: black;
+}
+
+.nav {
+   display: flex;
+    flex-direction: column;
+    color: #cc0000;
+}
+
+.nav a {
+
+}
+
+.nav a:hover {
+}
+
+.nav a.active {
+    color: deeppink;
+}
+.close {
+}
+
+.close img {
+}

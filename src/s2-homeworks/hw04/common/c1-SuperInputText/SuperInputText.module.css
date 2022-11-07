@@ -1,0 +1,33 @@
+.input:focus {
+    outline: none;
+    border: #99ff99 solid 2px;
+}
+
+.input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.inputWrapper {
+border-color: #cc9c00;
+}
+
+.superInput {
+    border-color: #cc0000;
+}
+
+.errorInput {
+border-color: pink;
+}
+
+.errorInput:focus {
+border-color: aqua;
+}
+
+.error {
+border-color: firebrick;
+}
+
+

@@ -1,0 +1,15 @@
+.burgerMenuIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header h1 {
+    display: flex;
+    flex-direction: column;
+}
