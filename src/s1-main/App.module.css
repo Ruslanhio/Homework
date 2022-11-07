@@ -15,6 +15,10 @@
     /*transform: translateX(-50%);*/
     width: 100%;
 }
+.hw:focus-visible{
+    border: none;
+    outline: none;
+}
 
 .hwTitle {
     font-family: 'Montserrat';
