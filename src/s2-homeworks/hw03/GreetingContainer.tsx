@@ -65,11 +65,11 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = (
     }
 
     const totalUsers = users.length // need to fix
-    const lastUserName = name // need to fix
+    const lastUserName = '' // need to fix
 
     return (
         <Greeting
-            name={lastUserName}
+            name={name}
             setNameCallback={setNameCallback}
             addUser={addUser}
             onBlur={onBlur}

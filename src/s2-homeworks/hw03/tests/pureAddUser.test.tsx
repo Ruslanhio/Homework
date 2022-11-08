@@ -5,8 +5,8 @@ let name: any
 const setName = (a: any) => {
     name = a
 }
-let error: string
-const setError = (a: string) => {
+let error: any
+const setError = (a: any) => {
     error = a
 }
 let added: any
@@ -23,7 +23,7 @@ beforeEach(() => {
 test('name 1', () => {
     name = '1'
     pureAddUser(name, setError, setName, addUserCallback)
-    expect(name).toBe('1')
+    expect(name).toBe('')
     expect(error).toBe('')
     expect(added).toBe(true)
 })
