@@ -4,22 +4,22 @@
 }
 
 .inputAndButtonContainer {
-    display: flex;
+
     align-items: baseline;
+    width: 372px;
+    height: 36px;
+    margin: 10px;
 }
 
 .error {
     color: red;
-    height: 21px;
     margin-left: 10px;
 }
 
 .input {
-    width: 372px;
-    height: 36px;
-    margin: 10px;
+
     border: 1px solid #D1D1D1;
-    border-radius:5px;
+    border-radius: 5px;
 
 }
 
@@ -59,7 +59,9 @@
 }
 
 .button:disabled {
-
+    background: gray;
+    border: none;
+    opacity: 30%;
 }
 
 .text {
