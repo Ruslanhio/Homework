@@ -14,8 +14,8 @@ export const pureAddUser = (name: string, setError: (name: string) => void, setN
     if (name.trim() ===  '')  {
         setError('Ошибка! Введите имя!')
     } else {
-        setName( name)
         addUserCallback(name)
+        setName('')
     }
 }
 
@@ -50,7 +50,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = (
 
         setName(e.currentTarget.value) // need to fix
 
-        error && setError('')
+        /*error &&*/ setError('')
     }
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
