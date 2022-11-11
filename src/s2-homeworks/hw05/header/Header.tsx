@@ -15,12 +15,12 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
 
     const pageName =
         currentPath === PATH.PRE_JUNIOR
-            ? 'Pre-junior'
+            ? 'Homework 5'
             : currentPath === PATH.JUNIOR
-                ? 'Junior'
+                ? 'Homework 5'
                 : currentPath === PATH.JUNIOR_PLUS
-                    ? 'Junior Plus'
-                    : 'Error'
+                    ? 'Homework 5'
+                    : 'Homework 5'
     return (
         <>
             <div id={'hw5-header'} className={s.header}>

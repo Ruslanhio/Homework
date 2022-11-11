@@ -1,6 +1,6 @@
 .sendForm {
     display:flex;
-    justify-content: space-between;;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     gap: 40px;
@@ -22,7 +22,7 @@
     border-radius: 20px;
     border: none;
     font-size: 14px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     height: 40px;
 
 }
