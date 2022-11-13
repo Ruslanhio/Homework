@@ -1,5 +1,4 @@
 .burgerMenuIcon {
-    background: firebrick;
     padding: 20px 0 15px 70px;
 
 
@@ -7,16 +6,25 @@
 
 .header {
     display: flex;
-    flex-direction: row;
-    background: #2C2C2C;
-    position: relative;
     justify-content: space-between;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
+
+
 
 }
 
 .header h1 {
-    background: yellow;
-    /*padding: 17px 70px 14px 0;*/
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 17px 70px 14px 0;
     /*position: absolute;
     right: 500vh;*/
 }
