@@ -17,10 +17,10 @@ export const Header: FC<PropsType> = ({handleOpen}) => {
         currentPath === PATH.PRE_JUNIOR
             ? 'Homework 5'
             : currentPath === PATH.JUNIOR
-                ? 'Homework 5'
+                ? 'Junior'
                 : currentPath === PATH.JUNIOR_PLUS
-                    ? 'Homework 5'
-                    : 'Homework 5'
+                    ? 'Junior+'
+                    : 'nothing'
     return (
         <>
             <div id={'hw5-header'} className={s.header}>
