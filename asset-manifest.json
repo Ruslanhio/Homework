@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Homework/static/css/main.b7f27ad0.css",
-    "main.js": "/Homework/static/js/main.235c248b.js",
-    "static/js/787.66cb4309.chunk.js": "/Homework/static/js/787.66cb4309.chunk.js",
-    "static/media/404.svg": "/Homework/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
-    "static/media/closeOutline.svg": "/Homework/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
-    "static/media/editIcon.svg": "/Homework/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
-    "static/media/checked.svg": "/Homework/static/media/checked.b75ca55e8759862b4083.svg",
-    "index.html": "/Homework/index.html",
-    "static/media/burger.svg": "/Homework/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.b7f27ad0.css.map": "/Homework/static/css/main.b7f27ad0.css.map",
-    "main.235c248b.js.map": "/Homework/static/js/main.235c248b.js.map",
-    "787.66cb4309.chunk.js.map": "/Homework/static/js/787.66cb4309.chunk.js.map"
+    "main.css": "/Homework/Junior/static/css/main.4dac158a.css",
+    "main.js": "/Homework/Junior/static/js/main.760edfda.js",
+    "static/js/787.66cb4309.chunk.js": "/Homework/Junior/static/js/787.66cb4309.chunk.js",
+    "static/media/404.svg": "/Homework/Junior/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/Homework/Junior/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/editIcon.svg": "/Homework/Junior/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
+    "static/media/checked.svg": "/Homework/Junior/static/media/checked.b75ca55e8759862b4083.svg",
+    "index.html": "/Homework/Junior/index.html",
+    "static/media/burger.svg": "/Homework/Junior/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.4dac158a.css.map": "/Homework/Junior/static/css/main.4dac158a.css.map",
+    "main.760edfda.js.map": "/Homework/Junior/static/js/main.760edfda.js.map",
+    "787.66cb4309.chunk.js.map": "/Homework/Junior/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7f27ad0.css",
-    "static/js/main.235c248b.js"
+    "static/css/main.4dac158a.css",
+    "static/js/main.760edfda.js"
   ]
 }
