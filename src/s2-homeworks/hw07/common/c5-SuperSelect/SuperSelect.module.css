@@ -1,9 +1,13 @@
 .select {
+    background: grey;
 }
 
 .select:focus {
+    background: firebrick;
 }
 
 
 .option:hover {
+    color: darkgoldenrod;
+    background: darkgoldenrod;
 }

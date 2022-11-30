@@ -1,15 +1,24 @@
 .radio {
+    display: flex;
+    background: coral;
 }
 
 .radio::before {
+    color: deeppink;
+    background: deeppink;
+
 }
 
 
 .radio:checked::before {
+    background: #00cc22;
+    color: yellow;
 }
 
 .label {
+    color: darkcyan;
 }
 
 .options {
+color: darkgoldenrod;
 }
