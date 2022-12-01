@@ -1,23 +1,64 @@
 .item {
+    display: flex;
+    /*position: relative;*/
+    justify-content: space-between;
+    padding-right: 280px;
 }
 
 .item:last-of-type {
+  /*  content: '';
+    position: absolute;*/
+
+
 }
 
 .users {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    margin-top: 33px;
+
 }
 
 .container {
+    width: 606px;
+    max-width: 100%;
 }
 
 .thead {
+    width: 606px;
+    height: 36px;
+    background: #E5E5E5;
+
 }
 
 .nameCol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 17px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+
 }
 
 .ageCol {
+    padding-left: 240px;
 }
