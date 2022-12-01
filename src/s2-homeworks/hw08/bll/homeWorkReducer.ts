@@ -1,5 +1,5 @@
 import {UserType} from '../HW8'
-import {elGR} from '@mui/material/locale';
+
 
 type ActionType =
     | { type: 'sort'; payload: 'up' | 'down' }
@@ -14,8 +14,7 @@ export const homeWorkReducer = (state:Array<UserType>, action: ActionType): Arra
                 action.payload === 'up' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name)) // need to fix
         }
         case 'check': {
-
-            return state.filter(el=>el.age > 18) // need to fix
+            return state.filter(el => el.age > 18).sort((a,b)=>a.age -b.age) // need to fix
         }
         default:
             return state
